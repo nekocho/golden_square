@@ -4,7 +4,7 @@ from lib.present import *
 def test_wrap_then_unwrap():
     presents = Present()
     presents.wrap('toys')
-    assert presents.unwrap()== 'toys'
+    assert presents.unwrap() == 'toys'
 
 def test_contents_not_none():
     presents = Present()
